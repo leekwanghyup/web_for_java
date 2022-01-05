@@ -18,5 +18,12 @@ public class Example08 {
 		System.out.println(x+1); // Infinity
 		System.out.println(y+1); // NaN
 		
+		// Infinity 여부
+		boolean isInfinity = Double.isInfinite(x); // true 
+		System.out.println(isInfinity);
+		
+		// NaN 여부 
+		boolean isNaN = Double.isNaN(y); // true
+		System.out.println(isNaN);
 	}
 }
